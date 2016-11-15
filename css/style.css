@@ -290,7 +290,7 @@ position: fixed;*/
 	border: 1px solid #DCB566;
 }
 .team-grid-left h4{
-	font-size: 1.5em;
+	font-size: 1em;
 	font-weight: 700;
 	color: #22383f;	
 	  padding: 0.5em 0 0;
@@ -781,18 +781,18 @@ button.btn1.btn-1.btn-1b:hover {
 	  height: 210px;
 	}
 	.side-viwer {
-	  left: 8em;
-	    min-height: 800px;
+	  left: 7.8em;
+	  min-height: 800px;
 	}
 	.about {
-	  min-height: 800px;
+	    min-height: 800px;
 	    width: 62%;
-	      padding: 1.8em 1em 0 1em;
+	    padding: 1.8em 1em 0 1em;
 	}
 	.massage{
 	  min-height: 800px;
-	    width: 62%;	
-	      padding: 1.8em 1em 0 1em;
+	  width: 62%;	
+	  padding: 1.8em 1em 0 1em;
 	}
 	.moments {
 	  min-height: 800px;
@@ -851,13 +851,13 @@ button.btn1.btn-1.btn-1b:hover {
 	  min-height: 800px;
 	}
 	.side-viwer h1 {
-	  font-size: 4em;
+	  font-size: 2.5em;
 	}
 	.team-grid-left h4 {
 	  padding: 3px 0;
 	}
 	.team-grid-left {
-	  width: 23.6%;
+	  width: 45%;
 	}
 	#portfoliolist .portfolio {
 	  width: 23.9%;
@@ -892,20 +892,25 @@ button.btn1.btn-1.btn-1b:hover {
 	}
 }
 @media(max-width:1024px){
+	body{
+	overflow: visible;
+    }
 	.social-icons {
 	  margin-top: 2em;
 	}
 	.side-viwer {
 	  min-height: 675px;
-	    left: 1em;
+	    left: 0.5em;
 	}
 	.side-viwer h1 {
-	    font-size: 3em;
+	    font-size: 2em;
 	    margin-top: 0;
 	}
 	.maggage-text {
-	  margin-right: 5px;
-	}
+    margin-right: 5px;
+    float: left;
+    width: 100%;
+    }
 	.side-viwer p {
 	    font-size: 1.1em;
 	}
@@ -929,7 +934,7 @@ button.btn1.btn-1.btn-1b:hover {
 	  right: 220px;
 	}
 	.about {
-	  width: 75.5%;
+	  width: 72%;
 	  left: 23.4%;
 	  min-height: 675px;
 	    padding: 1em 1em 0 1em;
@@ -940,6 +945,19 @@ button.btn1.btn-1.btn-1b:hover {
 	  min-height: 675px;
 	    padding: 1em 1em 0 1em;
 	}
+	.work-grid{
+      width: 50%;
+      float:left;
+    }
+    .view h2 {
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 50px 0 0 0;
+    }
 	.relax {
 	  width: 75.5%;
 	  left: 23.4%;
@@ -1004,13 +1022,14 @@ button.btn1.btn-1.btn-1b:hover {
 	.moments-left img {
  		  height: 165px;
 	}
+	.about-img {
+    padding-bottom: 30px;
+    }
 }
-@media(max-width:768px){/*
-	span.menu:before {
-		content: url(../images/nav-icon.png);
-		cursor: pointer;	
-		height:32px;
-	}*/
+@media(max-width:768px){
+	body{
+	overflow: visible;
+    }
 	.massage {
 	  top: 47%;
 	}
@@ -1024,9 +1043,9 @@ button.btn1.btn-1.btn-1b:hover {
 	  top: 47%;
 	}
 	.about {
-	  width: 100%;
+	  width: 94.5%;
 	  min-height: 675px;
-	  top: 83%;
+	  top: 85%;
 	  left: 0;
 	  padding: 1em 1em 0 1em;
 	}
@@ -1089,10 +1108,10 @@ button.btn1.btn-1.btn-1b:hover {
 	.top-menu ul li a {
 	    font-size: 1.1em;
 	}
-	.team-grid-left {
-	  width: 23.6%;
-	  float: left;
-	}
+/* 	.team-grid-left {
+  width: 23%;
+  float: left;
+} */
 	.team {
 	   padding: 1.9em 0 2em;
 	     margin-bottom: 4em;
@@ -1107,7 +1126,7 @@ button.btn1.btn-1.btn-1b:hover {
 	  width: 100%;
 	  left: 0;
 	    min-height: 701px;
-	   top: 60%;
+	   top: 88%;
 	    padding: 1em 1em 2em 1em;
 	}
 	.team-grid {
@@ -1179,8 +1198,14 @@ button.btn1.btn-1.btn-1b:hover {
 	.team h2 {
 	  margin-bottom: 13px;
 	}
+	/* .about-img {
+	    padding-bottom: 50px;
+	    } */
 }
 @media(max-width:640px){
+	body{
+	overflow: visible;
+    }
 	.work-grid img {
 	  margin-left: .82em;
 	}
@@ -1214,7 +1239,7 @@ button.btn1.btn-1.btn-1b:hover {
 	  padding-right: 0px;
 	}
 	.team-grid-left {
-	  width: 23.3%;
+	  width: 100%;
 	}
 	#portfoliolist .portfolio {
 	  width: 24%;
@@ -1235,6 +1260,7 @@ button.btn1.btn-1.btn-1b:hover {
 	  margin: 2em 0 4em;
 	}
 	.about {
+      width: 92.7%;
 	  top: 53.5%;
 	}
 	.massage {
@@ -1249,8 +1275,18 @@ button.btn1.btn-1.btn-1b:hover {
 	.contact {
 	  top: 53.5%;
 	}
+	.team-grid-left h4 {
+    font-size: 0.9em;
+    }
+    .about-img {
+    width: 50%;
+    padding-bottom:0px;
+    }
 }
 @media(max-width:480px){
+	body{
+	overflow: visible;
+    }
 	.about {
 	    padding: 1em 1em 0 .2em;
 	}
@@ -1320,13 +1356,13 @@ button.btn1.btn-1.btn-1b:hover {
 	.bx-thumbs {
 	  right: 79px;
 	}
-	.team-grid-left {
+	/* .team-grid-left {
 	  width: 45.5%;
 	  float: left;
 	  margin-bottom: 15px;
 	  padding: 0;
 	  margin-left: 14px;
-	}
+	} */
 	#portfoliolist .portfolio {
 	  width: 100%;
 	  float: none;
@@ -1362,6 +1398,9 @@ button.btn1.btn-1.btn-1b:hover {
 	}
 }
 @media(max-width:414px){
+	body{
+	overflow: visible;
+    }
 	.bx-thumbs {
 	  right: 27px;
 	}
@@ -1371,6 +1410,9 @@ button.btn1.btn-1.btn-1b:hover {
 	}
 }
 @media(max-width:375px){
+	body{
+	overflow: visible;
+    }
 	.bx-thumbs {
 	  right: 27px;
 	}
@@ -1380,6 +1422,9 @@ button.btn1.btn-1.btn-1b:hover {
 	}
 }
 @media(max-width:320px){
+	body{
+	overflow: visible;
+    }
 	.slider-viwer1 h1 {
 	  font-size: 3em;
 	}
